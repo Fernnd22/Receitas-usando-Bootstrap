@@ -1,0 +1,132 @@
+:root {
+    --cor-de-fundo-principal: #f7e4a1;
+    --cor-nav-bar: #fdfaf0;
+}
+
+.tituloH {
+    font-size: 40px;
+    font-family: 'MinhaFonte';
+}
+
+.arrumado {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('fontes/revudeville/Revudeville.ttf') format('truetype');
+}
+
+body {
+    background-color: var(--cor-de-fundo-principal);
+}
+
+.navbar {
+    background-color: var(--cor-nav-bar);
+}
+
+.container-fluid {
+    background-color: var(--cor-nav-bar);
+}
+
+.titulo-da-receita {
+    font-size: 60px;
+    font-family: 'MinhaFonte';
+    text-align: center;
+    position: absolute;
+    left: 15%;
+}
+
+.cartao-receita {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 30px auto;
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+
+}
+
+.botao-de-voltar {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo-e-botao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+#ingredientes-titulo {
+    font-size: 60px;
+}
+
+.imagem-da-receita {
+    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+#imagem-da-receita2 {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+#lista-de-receitas {
+    list-style-position: inside;
+    padding: 0;
+    font-size: 20px;
+}
+
+#avaliacoes {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 95px;
+}
+
+#imagem-de-avaliacao {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.imagem-de-avaliacao {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+#quantidade-de-avaliacoes {
+    position: relative;
+    top: 103px;
+    left: 20px;
+    font-size: 25px;
+}
+
+#modo-de-preparo {
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .titulo-da-receita {
+        font-size: 35px;
+    }
+    #avaliacoes {
+        font-size: 35px;
+    }
+}
